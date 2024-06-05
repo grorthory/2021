@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+  double b,c,x;
+  printf("bx + c = 0\n");
+  printf("Enter a value for b\n");
+  scanf("%lf",&b);
+  printf("Enter a value for c\n");
+  scanf("%lf",&c);
+  x=-c/b;
+  printf("x = %lf\n",x);
+}
